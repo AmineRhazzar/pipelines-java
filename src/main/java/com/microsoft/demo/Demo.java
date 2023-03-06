@@ -2,6 +2,9 @@ package com.microsoft.demo;
 
 public class Demo {
     public void DoSomething(boolean flag){
+        for(int i=0; i<10; i++){
+            System.out.println(i);
+        }
         if(flag){
             System.out.println("I am covered");
             return;
